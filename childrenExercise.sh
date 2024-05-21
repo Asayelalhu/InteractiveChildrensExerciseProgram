@@ -58,7 +58,7 @@ case "$category" in
         tech_options=("A) Book" "B) TV" "C) Bag")
         correct_tech_answer="B"
         ;;
-6-9")
+"6-9")
         math_exercise=$(tput setaf 6)"Choose the correct answer letter : Sum of 132 grapes + 8 grapes ="$(tput sgr0)
         math_options=("A) 150" "B) 140" "C) 141")
         correct_answer="B"
