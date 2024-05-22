@@ -107,35 +107,6 @@ else
 You'll improve with practice. \e[0m"
 
 fi
-if [ "$category" != "3-5" ]; then
-    if [ "$user_answer" == "$correct_answer" ]; then
-        echo "Well done! Keep up the good work!"
-    else
-        echo "Try again! You'll improve with practice."
-    fi
-fi
-
-echo "**"
-
-
-echo "Language exercises:"
-echo "$language_exercise"
-for option in "${language_options[@]}"; do
-    echo "$option"
-done
-
-read -p "Choose the correct answer for the language exercise: " user_answer
-
-user_answer=$(echo "$user_answer" | sed 's/./\U&/g')
-if [ "$user_answer" == "$correct_language_answer" ]; then
-echo -e "\e[32mCorrect answer, Well done! Keep up the good work!\e[0m"
-else
-   echo -e "\e[31mWrong answer, Try again!
-You'll improve with practice. \e[0m"
-
-fi
-
-
 
 if [ "$category" != "3-5" ]; then
     if [ "$user_answer" == "$correct_answer" ]; then
