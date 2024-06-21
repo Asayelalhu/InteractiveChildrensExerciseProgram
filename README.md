@@ -1,4 +1,4 @@
-Creating a README file for your script is a good idea to provide instructions and context for users or other developers. Here’s a simple README template you can use:
+
 
 ---
 
